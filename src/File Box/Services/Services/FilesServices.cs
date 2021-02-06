@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace Services.Services
 {
-    public class FilesServices : IFileRepository, ICrudRepository<Files>, IDisposable
+    public class FilesServices : IFileRepository
     {
         #region :: Depenedency::
 

@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Services.Services
 {
-    public class TokenServices : ITokenRepository, ICrudRepository<UserTokens>, IDisposable
+    public class TokenServices : ITokenRepository
     {
 
         #region :: Depenedency::

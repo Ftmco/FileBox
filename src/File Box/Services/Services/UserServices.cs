@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Services.Services
 {
-    public class UserServices : IUserRepository, ICrudRepository<Users>, IDisposable
+    public class UserServices : IUserRepository
     {
         #region ::Dependency::
 
