@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="CrudManager" Version="1.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.Http.Features" Version="5.0.1" />
   </ItemGroup>
 
