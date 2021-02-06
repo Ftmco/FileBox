@@ -16,7 +16,7 @@ public record Files
     /// File Primary Key
     /// </summary>
     [Key]
-    public Guid FileId { get; set; }
+    public Guid Id { get; set; }
 
     /// <summary>
     /// file Name
@@ -48,16 +48,5 @@ public record Files
     [Required]
     public DateTime UploadDate { get; set; }
 
-    /// <summary>
-    /// User foregen Key
-    /// </summary>
-    [Required]
-    public Guid UserId { get; set; }
-
-    //Realtionships
-
-    /// <summary>
-    /// Realtionships Users
-    /// </summary>
-    public virtual Users Users { get; set; }
+   
 }
