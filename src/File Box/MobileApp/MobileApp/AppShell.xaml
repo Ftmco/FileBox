@@ -12,8 +12,8 @@
         https://docs.microsoft.com/xamarin/xamarin-forms/app-fundamentals/shell/
     -->
 
-   
-    
+
+
     <Shell.Resources>
         <ResourceDictionary>
             <Style x:Key="BaseStyle" TargetType="Element">
@@ -74,7 +74,7 @@
                     </VisualStateGroupList>
                 </Setter>
             </Style>
-           
+
     </Shell.Resources>
 
     <!-- 
@@ -98,7 +98,7 @@
         </DataTemplate>
     </Shell.FlyoutHeaderTemplate>
 
-    <FlyoutItem Title="Home" Icon="home.png">
+    <FlyoutItem Title="Home" Icon="icons8home.png">
         <ShellContent Route="AboutPage" ContentTemplate="{DataTemplate local:AboutPage}" />
     </FlyoutItem>
     <FlyoutItem Title="Login" Icon="icons8_account.png">

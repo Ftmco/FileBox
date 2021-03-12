@@ -15,18 +15,5 @@ public class FileContext : DbContext
 
     }
 
-    /// <summary>
-    /// Users Table (DB Set)
-    /// </summary>
-    public virtual DbSet<Users> Users { get; set; }
-
-    /// <summary>
-    /// Tokens Table (DB Set)
-    /// </summary>
-    public virtual DbSet<UserTokens> UserTokens { get; set; }
-
-    /// <summary>
-    /// Files Table (DB Set)
-    /// </summary>
-    public virtual DbSet<Files> Files { get; set; }
+  
 }

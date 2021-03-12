@@ -3,6 +3,7 @@ using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 
+
 public static class Hash
 {
     public static async Task<string> CreateSHA256Async(this string str)
@@ -30,4 +31,3 @@ public static class Hash
         return returnHash;
     }
 }
-
